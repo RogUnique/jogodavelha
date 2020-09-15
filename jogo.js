@@ -131,18 +131,14 @@ $(document).ready(function(){
 				alert( jogada_1 + ' é o vencedor!');
 				$('.jogada').off();
 				
-				}
-				else if (pontos == 3) {
-
+				}else if (pontos == 3) {
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-					}
-				else if (pontos == 2 or pontos == -2){
-					alert('Vixi deu velha!');
-					$('.jogada').off();
-					 
-					}
+					}else if (pontos == 2 or pontos == -2){
+						alert('Vixi deu velha!');
+						$('.jogada').off();
+						}
 		 	
 		 } 		
 	});
