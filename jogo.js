@@ -138,7 +138,7 @@ $(document).ready(function(){
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
 					}
-				else if (pontos > 2 or pontos == -2){
+				else if (pontos == 2 or pontos == -2){
 					alert('Vixi deu velha!');
 					$('.jogada').off();
 					 
