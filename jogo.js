@@ -140,7 +140,7 @@ $(document).ready(function(){
 					}
 				else if (pontos == 1 or pontos == -1){
 					alert('Vixi deu velha!');
-					$('.jogada').off();
+					 
 					}
 		 	
 		 } 		
