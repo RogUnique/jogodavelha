@@ -132,16 +132,16 @@ $(document).ready(function(){
 				$('.jogada').off();
 				
 				}
-			else if (pontos == 3) {
-				
-				var jogada_2 = $('#entrada_apelido_jogador_2').val();
-				alert( jogada_2 + ' é o vencedor!');
-				$('.jogada').off();
-				}
-			else if (pontos == 1 or pontos == -1){
-				alert('Vixi deu velha!');
-				$('.jogada').off();
-				}
+				else if (pontos == 3) {
+
+					var jogada_2 = $('#entrada_apelido_jogador_2').val();
+					alert( jogada_2 + ' é o vencedor!');
+					$('.jogada').off();
+					}
+				else if (pontos == 1 or pontos == -1){
+					alert('Vixi deu velha!');
+					$('.jogada').off();
+					}
 		 	
 		 } 		
 	});
