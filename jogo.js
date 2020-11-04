@@ -1,4 +1,3 @@
-  
 var rodada = 1;
 var matriz_jogo = Array(3);
 
@@ -22,7 +21,7 @@ matriz_jogo['c'][3]= 0;
 
 $(document).ready(function(){
 	$('#btn_iniciar_jogo').click(function() {
-		console.log(matriz_jogo)
+		console.log(matriz_jogo);
 		//valida a digitação dos apelidos dos jogadores
 		if($('#entrada_apelido_jogador_1').val()==''){
 			alert('Apelido do jogador 1 não foi preenchido!');
@@ -123,11 +122,13 @@ $(document).ready(function(){
 			
 		}		
 
-		rodada = 1
+		 
 		function ganhador(pontos){
 			
-			if rodada == 6 and math.abs(pontos) != 3:
-				alert('Deu velha.')
+			if (rodada == 6) and (math.abs(pontos) != 3 ) {
+				alert('Deu velha.');
+			}
+				
 			if (pontos == -3) { 
 				
 				 
@@ -140,8 +141,7 @@ $(document).ready(function(){
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-                    } rodada++
-			
+                    }  
 		 	
 		 } 		
 	});
