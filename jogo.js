@@ -136,7 +136,7 @@ $(document).ready(function(){
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-                    }  else if (Math.abs(pontos) == 2) {
+                    }  else if (Math.abs(pontos) == 1) {
                         alert('Deu velha')
                     }
 		 	
