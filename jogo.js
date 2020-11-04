@@ -22,7 +22,7 @@ matriz_jogo['c'][3]= 0;
 
 $(document).ready(function(){
 	$('#btn_iniciar_jogo').click(function() {
-
+		console.log(matriz_jogo)
 		//valida a digitação dos apelidos dos jogadores
 		if($('#entrada_apelido_jogador_1').val()==''){
 			alert('Apelido do jogador 1 não foi preenchido!');
