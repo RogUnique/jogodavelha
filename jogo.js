@@ -1,3 +1,4 @@
+  
 var rodada = 1;
 var matriz_jogo = Array(3);
 
@@ -135,7 +136,9 @@ $(document).ready(function(){
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-					} 
+                    }  else if (Math.abs(pontos) == 2) {
+                        alert('Deu velha')
+                    }
 		 	
 		 } 		
 	});
