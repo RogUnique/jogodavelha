@@ -123,9 +123,13 @@ $(document).ready(function(){
 			
 		}		
 
-
+		rodada = 1
 		function ganhador(pontos){
+			
+			if rodada == 6 and math.abs(pontos) != 3:
+				alert('Deu velha.')
 			if (pontos == -3) { 
+				
 				 
 				var jogada_1 = $('#entrada_apelido_jogador_1').val(); 
 				 
@@ -136,9 +140,8 @@ $(document).ready(function(){
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-                    }  else if (Math.abs(pontos) == 1) {
-                        alert('Deu velha')
-                    }
+                    } rodada++
+			
 		 	
 		 } 		
 	});
