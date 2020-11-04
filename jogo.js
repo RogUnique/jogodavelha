@@ -124,9 +124,17 @@ $(document).ready(function(){
 
 		 
 		function ganhador(pontos){
+			console.log('Rodada:',rodada)
+			pontosModulo = Math.abs(pontos)
 			
-			if (rodada == 6) and (math.abs(pontos) != 3 ) {
-				alert('Deu velha.');
+			if (rodada == 10) {
+				if (pontosModulo != 3); {
+					
+					alert('Deu velha.');
+					rodada ++ //Parar execução
+				}
+				
+				
 			}
 				
 			if (pontos == -3) { 
@@ -141,7 +149,7 @@ $(document).ready(function(){
 					var jogada_2 = $('#entrada_apelido_jogador_2').val();
 					alert( jogada_2 + ' é o vencedor!');
 					$('.jogada').off();
-                    }  
+                    } 
 		 	
 		 } 		
 	});
