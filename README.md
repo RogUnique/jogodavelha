@@ -10,4 +10,4 @@ O jogo original não continha a jogada "Deu velha" que da nome ao mesmo. Então 
 
 #Jogue
 
-Clique <a href="https://rogunique.github.io/jogodavelha/'> aqui </a> para jogar.
+Clique <a href="https://rogunique.github.io/jogodavelha/"> aqui </a> para jogar.
