@@ -6,3 +6,8 @@ Este jogo faz parte do material pratico do curso de Desenvolvimento Web da Udemy
 # O que eu adicionei
 
 O jogo original não continha a jogada "Deu velha" que da nome ao mesmo. Então como desafio o professor propos que adicionarmos. 
+
+
+#Jogue
+
+Clique <a href="https://rogunique.github.io/jogodavelha/'>aqui para jogar.
